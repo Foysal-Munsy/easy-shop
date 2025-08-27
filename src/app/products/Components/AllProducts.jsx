@@ -1,16 +1,15 @@
-import ProductCard from "./ProductCard";
+import ProductCard from "@/app/Components/ProductCard";
+import React from "react";
 
-export default async function HighlightedProducts() {
+export default async function AllProducts() {
   const data = await fetch("http://localhost:3000/products.json", {
     cache: "no-store",
   });
   const products = await data.json();
-  //   console.log("🚀 ~ HighlightedProducts ~ products:", products);
-
   return (
     <div>
       <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 mt-10">
-        {products.slice(0, 3).map((product) => (
+        {products.map((product) => (
           <ProductCard
             key={product.id}
             imageUrl={product.imageUrl}

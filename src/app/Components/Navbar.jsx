@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import ThemeToggle from "./ThemeToggle";
 
 export default function Navbar() {
   const navMenu = () => {
@@ -53,6 +54,7 @@ export default function Navbar() {
         <ul className="menu menu-horizontal px-1">{navMenu()}</ul>
       </div>
       <div className="navbar-end">
+        <ThemeToggle />
         <a className="btn">Button</a>
       </div>
     </div>
