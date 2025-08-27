@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
+import LoginButton from "./LoginButton";
 
 export default function Navbar() {
   const navMenu = () => {
@@ -55,7 +56,8 @@ export default function Navbar() {
       </div>
       <div className="navbar-end">
         <ThemeToggle />
-        <a className="btn">Button</a>
+
+        <LoginButton />
       </div>
     </div>
   );
