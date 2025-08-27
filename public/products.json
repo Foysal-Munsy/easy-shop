@@ -1,30 +1,66 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "imageUrl": "https://i.ibb.co.com/1GrMM5zm/Wireless-Headphones.jpg",
     "title": "Wireless Headphones",
     "description": "High-quality wireless headphones with noise cancellation and 20 hours of battery life.",
-    "price": "29"
+    "price": "29",
+    "fullDescription": "Experience immersive sound with our latest wireless headphones. Designed for comfort and long listening sessions, featuring active noise cancellation, Bluetooth 5.0, and a 20-hour battery life.",
+    "features": [
+      "Active Noise Cancellation",
+      "20 Hours Battery Life",
+      "Bluetooth 5.0",
+      "Comfortable Ear Cushions"
+    ],
+    "availability": "In Stock",
+    "category": "Audio"
   },
   {
-    "id": 2,
+    "id": "2",
     "imageUrl": "https://i.ibb.co.com/9HZ9Bmgd/smartwatch.jpg",
     "title": "Smartwatch",
     "description": "Track your fitness, monitor your heart rate, and stay connected on the go.",
-    "price": "31"
+    "price": "31",
+    "fullDescription": "Stay on top of your health and notifications with this smartwatch. Monitor heart rate, track steps, sleep, and receive notifications directly on your wrist.",
+    "features": [
+      "Heart Rate Monitor",
+      "Step Counter",
+      "Sleep Tracking",
+      "Notifications on Wrist"
+    ],
+    "availability": "In Stock",
+    "category": "Wearables"
   },
   {
-    "id": 3,
+    "id": "3",
     "imageUrl": "https://i.ibb.co.com/xbY365v/Gaming-Laptop.jpg",
     "title": "Gaming Laptop",
     "description": "Powerful laptop with RTX graphics, 16GB RAM, and a 1TB SSD for smooth gaming.",
-    "price": "35"
+    "price": "35",
+    "fullDescription": "A high-performance gaming laptop equipped with RTX graphics, 16GB RAM, and a 1TB SSD for fast load times. Perfect for gaming and content creation.",
+    "features": [
+      "RTX Graphics",
+      "16GB RAM",
+      "1TB SSD",
+      "High Refresh Rate Display"
+    ],
+    "availability": "In Stock",
+    "category": "Computers"
   },
   {
-    "id": 4,
+    "id": "4",
     "imageUrl": "https://i.ibb.co.com/n8LRKqmC/Bluetooth-Speaker.jpg",
     "title": "Bluetooth Speaker",
     "description": "Portable speaker with deep bass, waterproof design, and 12 hours of playtime.",
-    "price": "26"
+    "price": "26",
+    "fullDescription": "Enjoy music anywhere with this portable Bluetooth speaker. Deep bass, waterproof design, and up to 12 hours of battery life for endless entertainment.",
+    "features": [
+      "Deep Bass",
+      "Waterproof Design",
+      "12 Hours Battery Life",
+      "Portable and Lightweight"
+    ],
+    "availability": "In Stock",
+    "category": "Audio"
   }
 ]

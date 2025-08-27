@@ -1,6 +1,13 @@
+import Link from "next/link";
 import React from "react";
 
-export default function ProductCard({ imageUrl, title, description, price }) {
+export default function ProductCard({
+  id,
+  imageUrl,
+  title,
+  description,
+  price,
+}) {
   return (
     // <div className="card bg-base-100 w-96 shadow-sm">
     //   <figure className="h-48 w-full overflow-hidden">
@@ -35,7 +42,9 @@ export default function ProductCard({ imageUrl, title, description, price }) {
         <h2 className="card-title text-base-content mb-2">{title}</h2>
         <p className="text-base-content/70 mb-4">{description}</p>
         <div className="card-actions justify-center">
-          <button className="btn btn-primary w-full">Explore Product</button>
+          <Link href={`/products/${id}`} className="btn btn-primary w-full">
+            Explore Product
+          </Link>
         </div>
       </div>
     </div>

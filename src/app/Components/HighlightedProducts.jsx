@@ -13,6 +13,7 @@ export default async function HighlightedProducts() {
         {products.slice(0, 3).map((product) => (
           <ProductCard
             key={product.id}
+            id={product.id}
             imageUrl={product.imageUrl}
             title={product.title}
             description={product.description}
