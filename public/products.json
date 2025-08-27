@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "https://i.ibb.co.com/1GrMM5zm/Wireless-Headphones.jpg",
+    "title": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation and 20 hours of battery life."
+  },
+  {
+    "id": 2,
+    "imageUrl": "https://i.ibb.co.com/9HZ9Bmgd/smartwatch.jpg",
+    "title": "Smartwatch",
+    "description": "Track your fitness, monitor your heart rate, and stay connected on the go."
+  },
+  {
+    "id": 3,
+    "imageUrl": "https://i.ibb.co.com/xbY365v/Gaming-Laptop.jpg",
+    "title": "Gaming Laptop",
+    "description": "Powerful laptop with RTX graphics, 16GB RAM, and a 1TB SSD for smooth gaming."
+  },
+  {
+    "id": 4,
+    "imageUrl": "https://i.ibb.co.com/n8LRKqmC/Bluetooth-Speaker.jpg",
+    "title": "Bluetooth Speaker",
+    "description": "Portable speaker with deep bass, waterproof design, and 12 hours of playtime."
+  }
+]
