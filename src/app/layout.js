@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import NextAuthSessionProvider from "@/Providers/NextAuthSessionProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,15 +22,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <Navbar />
-        <div className="min-h-screen mt-10 container mx-auto mb-10">
-          {children}
-        </div>
-        <Footer />
-      </body>
+      <NextAuthSessionProvider>
+        <body
+          className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <Navbar />
+          <div className="min-h-screen mt-10 container mx-auto mb-10">
+            {children}
+          </div>
+          <Footer />
+        </body>
+      </NextAuthSessionProvider>
     </html>
   );
 }
