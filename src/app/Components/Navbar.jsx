@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import ThemeToggle from "./ThemeToggle";
 import LoginButton from "./LoginButton";
+import RegisterButton from "./RegisterButton";
 
 export default function Navbar() {
   const navMenu = () => {
@@ -58,6 +59,7 @@ export default function Navbar() {
         <ThemeToggle />
 
         <LoginButton />
+        <RegisterButton />
       </div>
     </div>
   );

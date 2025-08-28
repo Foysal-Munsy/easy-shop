@@ -1,9 +1,12 @@
 import ProductCard from "./ProductCard";
 
 export default async function HighlightedProducts() {
-  const data = await fetch("http://localhost:3000/products.json", {
-    cache: "no-store",
-  });
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/products.json`,
+    {
+      cache: "no-store",
+    }
+  );
   const products = await data.json();
   //   console.log("🚀 ~ HighlightedProducts ~ products:", products);
 

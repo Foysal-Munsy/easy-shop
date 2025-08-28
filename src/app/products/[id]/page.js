@@ -2,9 +2,12 @@ import React from "react";
 
 export default async function page({ params }) {
   const { id } = await params;
-  const data = await fetch(`http://localhost:3000/products.json`, {
-    cache: "no-store",
-  });
+  const data = await fetch(
+    `${process.env.NEXT_PUBLIC_BASE_URL}/products.json`,
+    {
+      cache: "no-store",
+    }
+  );
   const products = await data.json();
   const product = products.find((p) => p.id === id);
   console.log("🚀 ~ page ~ product:", product);
